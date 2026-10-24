@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- Favicon Pivot Store : le monogramme sur pastille sombre, pour rester
+       lisible aussi bien sur un onglet clair que sombre. -->
+  <defs>
+    <linearGradient id="bowl" x1="0%" y1="100%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#EC4899"/>
+      <stop offset="100%" stop-color="#A855F7"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="64" height="64" rx="15" fill="#0D0B12"/>
+
+  <g transform="translate(6.5 3) scale(0.88)">
+    <path d="M16 10 V54" fill="none" stroke="#fff" stroke-width="7" stroke-linecap="round"/>
+    <path d="M16 10 H31 A14 14 0 0 1 31 38 H16" fill="none" stroke="url(#bowl)"
+          stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="31" cy="24" r="4.2" fill="#fff"/>
+  </g>
+</svg>
